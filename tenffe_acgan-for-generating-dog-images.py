@@ -111,7 +111,7 @@ else:
 
         img = Image.open(ROOT + 'all-dogs/all-dogs/' + IMAGES[x[k]])
 
-        w = img.size[0]; h = img.size[1];
+        w = img.size[0]; h = img.size[1]
 
         if (k%2==0)|(k%3==0):
 
@@ -1127,5 +1127,3 @@ if ComputeLB:
     
 
     # REMOVE FILES TO PREVENT KERNEL ERROR OF TOO MANY FILES
-
-    ! rm -r ../tmp
